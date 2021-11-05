@@ -1,0 +1,58 @@
+body {
+    background-image: url(/img/mantel.jpg);
+}
+
+#container{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    font-family: 'Roboto';
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#container h1{
+    text-align: center;
+    font-family: 'Carter one';
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+
+#container h2{
+    background-color: #90E6F8;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.411) 5px 6px 8px;
+}
+
+#container li{
+    font-weight: 300;
+    padding: 2px;
+}
+
+#container dt{
+    max-width: 500px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#container dt{
+    font-weight: 700;
+}
+
+#container dd{
+    font-weight: 300;
+    padding-bottom: 4px
+}
+
+#container iframe{
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width:800px) {
+    #container iframe{
+        width: 80%;
+    }
+}
